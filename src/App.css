@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+nav svg {
+  cursor: pointer;
+}
+
+nav svg:hover {
+  color: #6E6E6E
+}
