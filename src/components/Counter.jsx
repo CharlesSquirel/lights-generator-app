@@ -6,7 +6,7 @@ import { useState } from "react";
 const Counter = ({ text }) => {
   const [count, setCount] = useState(0);
   const handleCountDecrease = () => {
-    if (count >= 0) {
+    if (count > 0) {
       setCount(count - 1);
     }
   };
