@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Text = ({text, count}) => {
+const Text = ({text, bulbs}) => {
   return (
-    <p>{count} {text}</p>
+    <p>{bulbs} {text}</p>
   )
 }
 

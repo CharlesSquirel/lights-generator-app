@@ -2,10 +2,9 @@ import React from 'react';
 import style from './LightGrid.module.css';
 import SingleLight from './SingleLight';
 
-const LightGrid = ({ countRows, countColumns }) => {
+const LightGrid = ({ countRows, countColumns, countLights }) => {
   const gridTemplateColumns = `repeat(${countColumns}, 1fr)`;
   const gridTemplateRows = `repeat(${countRows}, 1fr)`;
-  const countLights = countColumns * countRows;
   const lights = new Array(countLights).fill("singleLight");
 
   return (
