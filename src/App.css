@@ -16,3 +16,7 @@ nav svg {
 nav svg:hover {
   color: #6E6E6E
 }
+
+img {
+  cursor: pointer
+}
