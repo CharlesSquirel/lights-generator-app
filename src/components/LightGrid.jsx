@@ -2,10 +2,10 @@ import React from 'react';
 import style from './LightGrid.module.css';
 import SingleLight from './SingleLight';
 
-const LightGrid = ({ countRows, countColumns, countLights }) => {
+const LightGrid = ({ countRows, countColumns, bulbs }) => {
   const gridTemplateColumns = `repeat(${countColumns}, 1fr)`;
   const gridTemplateRows = `repeat(${countRows}, 1fr)`;
-  const lights = new Array(countLights).fill("singleLight");
+  const lights = new Array(bulbs).fill("singleLight");
 
   return (
     <section className={style.container} style={{ gridTemplateColumns, gridTemplateRows }}>
